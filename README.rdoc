@@ -1,0 +1,7 @@
+== README
+
+Just a slicing exercise.
+
+Cutting up a jpeg image into a responsive webpage
+
+Hosted at jayden-slicing-exercise.herokuapp.com[jayden-slicing-exercise.herokuapp.com]
