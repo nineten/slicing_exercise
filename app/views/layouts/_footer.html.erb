@@ -1,0 +1,21 @@
+<div id="footer_top"></div>
+<div id="footer">
+	<div class="container">
+		<div class="span2 footer-logo">
+			<%= image_tag "logo_docdoc_square.png" %>
+		</div>
+		<div class="span4 footer-form">
+			<div class="footer-text">GET IN TOUCH WITH US WITH YOUR SELECTED PROCEDURE.</div>
+			<select>
+				<option value="double eyelid">Double Eyelid</option>
+				<option value="rhinoplasty">Rhinoplasty</option>
+				<option value="chin augmentation">Chin Augmentation</option>
+			</select>
+		</div>
+		<div class="span4 footer-form">
+			<%= text_field_tag "", "", :placeholder => "Full name" %>
+			<%= text_field_tag "", "", :placeholder => "Email Address" %>
+			<button class="btn-interested">I'M INTERESTED</button>
+		</div>
+	</div>
+</div>

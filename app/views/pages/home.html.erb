@@ -1,2 +1,112 @@
-<h1>Home</h1>
-<p>Testing 1 2 3</p>
+<%= render "hero_unit" %>
+<div class="row contents">
+	<div class="span8 contents_left">
+		<h4>DOUBLE EYELID</h4>
+		<p>Double Eyelid Surgery Beautiful and distinct double eyelids are typically uncommon in Asians. A double eyelid surgery seeks to create this feature. There are a variety of surgical techniques that may be used. Key difference is in whether an incision is made - incision methods are more expensive and slower but typically yield better results than non-incision techniques.</p>
+		<h5>Types of Double Eyelid Surgeries</h5>
+		<h5>1. Non-incision</h5>
+		This is one kind of blepharoplasty, Asian double eyelid surgery. Also known as the 'pinch method'. double eyelid non-incision surgery involves using minute opening made in the eyelid.
+		<h5>2. Partial Incision</h5>
+		Partial incision blepharoplasty involves making a tiny incision and removing excess fat and muscle tissues. The double eyelid created is long lasting with minimal scarring and swelling. (Eyelids containing excess fat and muscle undergo-ing the non-incision method may come undone; therefore partial incision is superior in this case.)
+		<h5>3. Full Incision</h5>
+		The most common form of double eyelid surgery, also known as the Asian eyelid surgery, involves removal of excess fat from the eyelid through incisions. However, this surgery must be performed with expert skill to decrease scarring as well as the need for revision surgery.
+		<div id="picturegallery" class="carousel slide picture-gallery" data-ride="carousel">
+			<div class="caroursel-header">
+				PICTURE GALLERY
+				<ol class="carousel-indicators">
+					<li data-target="#picturegallery" data-slide-to="0" class="active"></li>
+					<li data-target="#picturegallery" data-slide-to="1"></li>
+					<li data-target="#picturegallery" data-slide-to="2"></li>
+					<li data-target="#picturegallery" data-slide-to="3"></li>
+					<li data-target="#picturegallery" data-slide-to="4"></li>
+				</ol>
+			</div>
+			<div class="carousel-top">
+				<ol>
+				<li data-target="#picturegallery" data-slide-to="0">
+					<div class="description">Non-incision</div>
+					<%= image_tag "blank.png", :style => "width:130px;height:86px;" %>
+				</li>
+				<li data-target="#picturegallery" data-slide-to="1">
+					<div class="description">Non-incision</div>
+					<%= image_tag "blank.png", :style => "width:130px;height:86px;" %>
+				</li>
+				<li data-target="#picturegallery" data-slide-to="2">
+					<div class="description">Partial Incision</div>
+					<%= image_tag "blank.png", :style => "width:130px;height:86px;" %>
+				</li>
+				<li data-target="#picturegallery" data-slide-to="3">
+					<div class="description">Partial Incision</div>
+					<%= image_tag "blank.png", :style => "width:130px;height:86px;" %>
+				</li>
+				<li data-target="#picturegallery" data-slide-to="4">
+					<div class="description">Full Incision</div>
+					<%= image_tag "blank.png", :style => "width:130px;height:86px;" %>
+				</li>
+				<span></span>
+			</ol>
+			</div>
+			<div class="carousel-holder">
+				<div class="carousel-inner">
+					<div class="item active">
+						<%= image_tag "img_carousel1.png" %>
+					</div>
+					<div class="item">
+						<%= image_tag "img_carousel1.png" %>
+					</div>
+					<div class="item">
+						<%= image_tag "img_carousel1.png" %>
+					</div>
+					<div class="item">
+						<%= image_tag "img_carousel1.png" %>
+					</div>
+					<div class="item">
+						<%= image_tag "img_carousel1.png" %>
+					</div>
+				</div>
+				<a class="carousel-control-left" href="#picturegallery" data-slide="prev">
+					<b class="prev-caret"></b>
+				</a>
+				<a class="carousel-control-right" href="#picturegallery" data-slide="next">
+					<b class="next-caret"></b>
+				</a>
+			</div>
+			<div class="carousel-bottom"></div>
+		</div>
+		<button class="btn-view-other">VIEW OTHER PROCEDURES</button>
+	</div>
+	<div class="span4 pull-right">
+		<div class="sidebar-top">
+			<button class="btn-close-sidebar"></button>
+			<iframe width="370" height="210" src="//www.youtube.com/embed/U0caS8OPnS4" frameborder="0" allowfullscreen></iframe>
+			<div class="video-link">
+				<%= image_tag "http://img.youtube.com/vi/VaXFD8RctwA/0.jpg" %>
+				<div class="video-description">
+					<h5>Non-incision</h5>
+					This is one kind of blepharoplasty
+				</div>
+			</div>
+			<div class="video-link">
+				<%= image_tag "http://img.youtube.com/vi/VaXFD8RctwA/0.jpg" %>
+				<div class="video-description">
+					<h5>Partial Incision</h5>
+					Full Incision bleharoplasty
+				</div>
+			</div>
+			<div class="video-link">
+				<%= image_tag "http://img.youtube.com/vi/VaXFD8RctwA/0.jpg" %>
+				<div class="video-description">
+					<h5>Full Incision</h5>
+					Double eyelid surgery
+				</div>
+			</div>
+		</div>
+		<div class="sidebar-btm">
+			<h5>Why Korea, You Ask?</h5>
+			South Korea has in recent years, emerged as the most-cosmetically enhanced population in the world. So it's little wonder that it is Asia's #1 travel destination for plastic surgery and aesthetic procedures, thanks to its experienced doctors, quality medical clinics and state-of-the-art health-care services. The land of the "Gangnam Style" is also easy on the wallet whether its transport, accommodation or entertainment.
+			<h5>And Why Choose DocDoc</h5>
+			DocDoc plays an important role in the medical tourism process. We educate and assist patients like yourself who live outside South Korea and are thinking of travelling to cities like Seoul, Gangnam or Busan to seek quality medical care.
+			<p>DocDoc has over 29,000 doctors and dentists listed on our platform with personalized profiles and online appointment slots. We work with many of the top doctors and medical clinics in South Korea. Many of these clinics offer.</p>
+		</div>
+	</div>
+</div>
